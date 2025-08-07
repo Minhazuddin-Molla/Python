@@ -1,0 +1,12 @@
+a=input("Enter any name:")
+a=" "+a
+b=""
+flag=0
+for i in range(0,len(a)):
+    if a[i]==" ":
+        flag=i
+for i in range(0,flag):
+    if a[i]==" ":
+        b+=a[i+1]+"."
+b+=a[flag+1:]
+print(b)

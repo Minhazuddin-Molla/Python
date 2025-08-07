@@ -1,0 +1,23 @@
+def Encode(a,i,w):
+    if i<len(a):
+        if a[i]>="A" and a[i]<="Z":
+            if a[i]>"X":
+                w+=chr(66-(90-ord(a[i])))
+                return Encode(a,i+1,w)
+            else:
+                w+=chr(ord(a[i])+2)
+                return Encode(a,i+1,w)
+        elif a[i]>="a" and a[i]<="z":
+            if a[i]>"x":
+                w+=chr(98-(122-ord(a[i])))
+                return Encode(a,i+1,w)
+            else:
+                w+=chr(ord(a[i])+2)
+                return Encode(a,i+1,w)
+        else:
+            w+=a[i]
+            return Encode(a,i+1,w)
+    else:
+        return w
+a=input("Enter any line:")
+print(Encode(a,0,""))

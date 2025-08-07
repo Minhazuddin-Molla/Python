@@ -1,0 +1,5 @@
+n=int(input("Enter no. of lines:"))
+for i in range(1,n+1):
+    for j in range(1,i+1):
+        print(j,end="") # end is used to keep the control in the same line.
+    print()

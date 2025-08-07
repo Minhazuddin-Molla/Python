@@ -1,0 +1,12 @@
+import csv
+fileobject=open("Student.csv",'a+',newline="")
+filewriter=csv.writer(fileobject)
+filewriter.writerow(["Name","Roll No.","Marks"])
+for i in range(5):
+    print("Record",i+1)
+    name=input("Enter any name:")
+    rollno=int(input("Roll no.:"))
+    Marks=int(input("Marks:"))
+    ob=[name,rollno,Marks]
+    filewriter.writerow(ob)
+fileobject.close()

@@ -1,18 +1,18 @@
-# n=int(input("Enter any number:"))
-# m=n
-# c=0
-# while m>0:
-#     c+=1
-#     m=m//10
-# m=n
-# s=0
-# while m>0:
-#    s+=pow((m%10),c)
-#    m=m//10
-# if s==n:
-#     print("Armstrong Number.")
-# else:
-#     print("Not")
+n=int(input("Enter any number:"))
+m=n
+c=0
+while m>0:
+    c+=1
+    m=m//10
+m=n
+s=0
+while m>0:
+   s+=pow((m%10),c)
+   m=m//10
+if s==n:
+    print("Armstrong Number.")
+else:
+    print("Not")
 # import math
 # n=int(input("Enter any number:"))
 # print(n**2)
@@ -27,7 +27,7 @@
 # print(True or False)
 # print(False or True)
 # print(False or False)
-print(1 and 0)
+# print(1 and 0)
 # print(True and False)
 # print(False and True)
 # print(False and False)
@@ -37,3 +37,4 @@ print(1 and 0)
 #     m=n
 #     n=2*(n-m)
 #     print(n,m,end=" ")
+

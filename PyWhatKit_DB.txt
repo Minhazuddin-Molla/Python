@@ -1,0 +1,15 @@
+Date: 21/11/2023
+Time: 18:3
+Phone Number: +91 79082 22571
+Message: Hi, I tried an automate msg from Python
+--------------------
+Date: 21/11/2023
+Time: 18:13
+Phone Number: +917908511450
+Message: Hi, I tried an automate msg from Python
+--------------------
+Date: 21/11/2023
+Time: 18:16
+Phone Number: +917908511450
+Message: Hi, I tried an automate msg from Python
+--------------------

@@ -1,0 +1,28 @@
+Name,Roll No.,Marks
+Minhaz,19,97
+Anuska,8,94
+Misba,20,95
+Abhinavo,1,96
+Sambit,36,99
+Abhirup,5,98
+Swapnil,32,98
+Aishiki,10,99
+Debarghya,15,99
+Zunaid,40,95
+Name,Computer Marks
+Minhaz,Misba,Swapnil,Anuska,Debarghya
+100,99,98,96,95
+Name,Computer Marks
+"['mjd', 'dj', 'mka', 'mji', 'abc']","[99, 98, 78, 65, 56]"
+Name,Computer Marks
+mhe,99
+abc,98
+hjf,78
+nmj,65
+dfr,64
+Name,Computer Marks
+Safiuddin Molla,100
+Diptojeet,99
+Tamanna Yasmin,99
+Srijani Hazra,98
+Ahana Shyam,95
